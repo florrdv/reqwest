@@ -19,11 +19,11 @@ use http::{Request as HttpRequest, request::Parts};
 
 /// A request which can be executed with `Client::execute()`.
 pub struct Request {
-    method: Method,
-    url: Url,
-    headers: HeaderMap,
-    body: Option<Body>,
-    timeout: Option<Duration>,
+    pub method: Method,
+    pub url: Url,
+    pub headers: HeaderMap,
+    pub body: Option<Body>,
+    pub timeout: Option<Duration>,
 }
 
 /// A builder to construct the properties of a `Request`.
