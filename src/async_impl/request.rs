@@ -30,7 +30,7 @@ pub struct Request {
 #[must_use = "RequestBuilder does nothing until you 'send' it"]
 pub struct RequestBuilder {
     client: Client,
-    request: crate::Result<Request>,
+    pub request: crate::Result<Request>,
 }
 
 impl Request {

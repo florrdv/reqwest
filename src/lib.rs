@@ -1,4 +1,3 @@
-#![deny(missing_docs)]
 #![deny(missing_debug_implementations)]
 #![cfg_attr(test, deny(warnings))]
 #![doc(html_root_url = "https://docs.rs/reqwest/0.10.8")]
